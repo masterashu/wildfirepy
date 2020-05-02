@@ -1,1 +1,6 @@
-
+- regExp: "wildfirepy/coordinates/.*"
+  labels: [Coordinates]
+- regExp: ".*test.*"
+  labels: [Testing]
+- regExp: "wildfirepy/net/util/.*"
+  labels: [Utilities]
