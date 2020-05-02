@@ -1,6 +1,16 @@
 - regExp: "wildfirepy/coordinates/.*"
   labels: [Coordinates]
-- regExp: ".*test.*"
-  labels: [Testing]
+  
+- regExp: "wildfirepy/net/ugs/.*"
+  labels: [Usgs]
+  
 - regExp: "wildfirepy/net/util/.*"
   labels: [Utilities]
+  
+- regExp: ".*test.*"
+  labels: [Testing]
+
+- regExp: "(.*\.rst)|(.*\.md)"
+  labels: [Documentation]
+  
+  
