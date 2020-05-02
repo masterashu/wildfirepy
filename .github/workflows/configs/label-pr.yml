@@ -10,7 +10,7 @@
 - regExp: ".*test.*"
   labels: [Testing]
 
-- regExp: "(.*\.rst)|(.*\.md)"
+- regExp: "(.*[.]rst)|(.*[.]md)"
   labels: [Documentation]
   
   
