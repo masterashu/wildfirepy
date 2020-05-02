@@ -4,6 +4,7 @@ from xml.dom import minidom
 from wildfirepy.net.usgs import ModisBurntAreaDownloader
 from wildfirepy.net.util import URLOpenerWithRedirect, USGSHtmlParser
 
+
 opener = URLOpenerWithRedirect()
 downloader = ModisBurntAreaDownloader()
 
