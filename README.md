@@ -2,7 +2,7 @@ WildfirePy
 =====
 
 WildfirePy is an open-source Python library for Wildfire GIS data analysis.
-
+  
 Installation
 ------------
 
