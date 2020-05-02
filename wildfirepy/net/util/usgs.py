@@ -5,6 +5,7 @@ from urllib.request import HTTPBasicAuthHandler, HTTPCookieProcessor
 from http.cookiejar import CookieJar
 import re
 
+
 __all__ = ['URLOpenerWithRedirect', 'USGSHtmlParser']
 
 
