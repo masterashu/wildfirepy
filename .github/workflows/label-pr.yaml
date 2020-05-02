@@ -13,4 +13,4 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           # The path for the configuration files.
-          CONFIG_PATH: ${{ secrets.GITHUB_WORKSPACE }}/.github/workflows/config/label-pr.yml
+          CONFIG_PATH: ${{ secrets.GITHUB_WORKSPACE }}/.github/workflows/configs/label-pr.yml
