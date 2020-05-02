@@ -12,7 +12,7 @@ Use git to grab the latest version of WildfirePy:
 
 Done! In order to enable WildfirePy to be imported from any location you must make
 sure that the library is somewhere in your PYTHONPATH environmental variable.
-For now the easiest thing is to install it locally by running,
+For now the easiest thing is to install it locally by running:
 ```
 pip install -e .
 ```
