@@ -1,0 +1,34 @@
+# Enable "labeler" for your PR that would add labels to PRs based on the paths that are modified in the PR.
+labelPRBasedOnFilePath:
+  # Add 'label1' to any changes within 'example' folder or any subfolders
+
+  Coordinates:
+    - 'wildfirepy/coordinates/.*'
+    
+  Usgs:
+    - 'wildfirepy/net/ugs/.*'
+  
+  Utilities:
+    - 'wildfirepy/net/util/.*'
+
+  Testing:
+    - '.*test.*'
+    
+  Documentation:
+    - '.*[.]rst'
+    - '.*[.]md'
+    
+
+# Welcome Greetings
+# Comment to be posted to welcome users when they open their first PR
+firstPRWelcomeComment: >
+  Thanks for opening this pull request! Please check out our contributing guidelines.
+
+# Comment to be posted to congratulate user on their first merged PR
+firstPRMergeComment: >
+  Awesome work, congrats on your first merged pull request!
+
+# Comment to be posted to on first time issues
+firstIssueWelcomeComment: >
+  Thanks for opening your first issue here! Be sure to follow the issue template!
+
