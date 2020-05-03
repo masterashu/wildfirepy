@@ -1,6 +1,7 @@
 WildfirePy
 =====
 
+
 ![](https://github.com/wildfirepy/wildfirepy/workflows/Python%20application/badge.svg)
 ![](https://github.com/wildfirepy/wildfirepy/workflows/Python%20package/badge.svg)
 
