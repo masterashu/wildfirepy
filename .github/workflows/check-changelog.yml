@@ -24,3 +24,5 @@ jobs:
         fileName: 'changelog/(\d+)[.].*[.]rst'
         # Label to ignore changelog check
         noChangelogLabel: skip-changelog
+      env: 
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
