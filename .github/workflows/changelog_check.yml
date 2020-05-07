@@ -1,0 +1,23 @@
+# This workflow will check pull requests for not adding a changelog for 
+# thier pull requests and notify them to add one.
+name: Changelog check
+
+on: [pull_request]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Changelog checker
+      uses: masterashu/check_changelog@v1.0
+      with:
+        changelog: 'changelog/.*[.]rst'
+
+        # missing_changelog_message: Provide a custom message which will
+        # commented when the Pull Request has a missing changelog
+
+        # skip_changelog_label: 'skip-changelog-check' # Will skip the check if 
+        # Pull request has this label
+      env: 
+        GITHUB_TOKEN: '${{ secrets.GITHUB_TOKEN }}'
